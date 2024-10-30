@@ -1,5 +1,5 @@
 body {
-    background: blue;
+    background: lightseagreen;
     font-family: 'Times New Roman', Times, serif;
     }
     h1 {
@@ -10,16 +10,20 @@ body {
     .about{
         display:flex;
         flex-wrap:wrap;
+        text-align: center;
         margin-right: 100px;
         margin-left: 100px;
         justify-content: center;
         }
 
         .about p {
+            display: flex;
+            flex-wrap: wrap;
             width:50%;
             text-align: center;
             margin: auto;
             line-height: 125%;
+            background: white; 
             }
     
     .projects { display:flex; flex-wrap:wrap; } 
