@@ -15,7 +15,7 @@ body {
         justify-content: center;
         }
 
-        about p {
+        .about p {
             width:50%;
             text-align: center;
             margin: auto;
