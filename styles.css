@@ -6,6 +6,21 @@ body {
     color: white;
     text-align: center;
     }
+
+    .about{
+        display:flex;
+        flex-wrap:wrap;
+        margin-right: 100px;
+        margin-left: 100px;
+        justify-content: center;
+        }
+
+        about p {
+            width:50%;
+            text-align: center;
+            margin: auto;
+            line-height: 125%;
+            }
     
     .projects { display:flex; flex-wrap:wrap; } 
     .project {
